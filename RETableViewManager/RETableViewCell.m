@@ -171,7 +171,7 @@
 - (void)layoutDetailView:(UIView *)view minimumWidth:(CGFloat)minimumWidth
 {
     CGFloat cellOffset = 10.0;
-    CGFloat fieldOffset = 10.0;
+    CGFloat fieldOffset = 50.0;
     
     if (self.section.style.contentViewMargin <= 0)
         cellOffset += 5.0;
